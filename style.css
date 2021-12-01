@@ -1,0 +1,60 @@
+.body {
+    display: flex;
+    }
+    
+    .header {
+    background: #1F2937;
+    color: white;
+    }
+    
+    .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+    
+    
+    ul li {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: xx-small;
+    gap: 5px;
+    padding-right: 40px;
+    }
+    
+    p {
+    }
+    
+    h1 {
+    margin-bottom: -15px;
+    }
+    
+    img {
+    
+    }
+    
+    .signup {
+      
+       
+    }
+
+    .image {
+       min-width: 0;
+      
+    }
+    
+    .bottom-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-main {
+        font-weight: bolder;
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+
+    .hero-sec {
+        font-size: 18px;
+    }
