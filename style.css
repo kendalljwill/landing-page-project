@@ -85,6 +85,7 @@
     .gallery-section {
         display: flex;
         justify-content: center;
+        margin-bottom: 80px;
         
     }
 
@@ -95,7 +96,7 @@
     }
 
     .gallery-header p {
-        background: yellow;
+        
         position: absolute;
         left: 33%;
         margin-right: -30%;
@@ -108,4 +109,63 @@
         margin-right: 20px;
     }
 
-    
+    .quote-section {
+        background-color: #E5E7EB;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-flow: row wrap;
+       padding: 40px;
+    }
+
+    .quote {
+        inline-size: 800px;
+        font-style: italic;
+        font-size: 36px;
+        font-weight: lighter;
+    }
+
+    .quote-section hr {
+        width: 100%;
+        border: none;
+       
+    }
+
+    .customer {
+        margin-left: 250px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .signup-template {
+        background-color: #3882F6;
+        margin-left: 320px;
+        margin-right: 320px;
+         flex-flow: row wrap;
+         margin-top: 60px;
+         
+        
+    }
+
+    .signup-template hr {
+       width: 100%;
+       border:  none;
+       
+    }
+
+    .call-to-action {
+        
+    }
+
+    .top-portion {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        margin-left: 230px;
+    }
+
+    .bot-portion {
+        display: flex;
+        justify-content: space-around;
+        
+    }
